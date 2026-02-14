@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title> Forms In HTML </title>
+</head>
+<body> 
+    <form>
+        <fieldset>
+            <legend> Personal Registration</legend>
+            <label> Full Name: <input type="text" id= "fn"> </label> <br>
+            <label> Email: <input type="email" id="em"> </label><br>
+            <label> Password: <input type="password" id="pwd"></label><br>
+            <label> Phone Number: <input type="number" id="ph"></label><br>
+            <label> Birthdate: <input type="date" id="bd"></label><br>
+            <label> Gender: <br> 
+            <input type="radio" id="female" name="gd"> FEMALE<br>
+            <input type="radio" id="male" name="gd"> MALE<br>
+            <input type="radio" id="other" name="gd"> OTHER<br>
+            </label>
+            <label> Hobbies: <br>
+                <input type="checkbox" id="sport" name="hb"> SPORT<br>
+                <input type="checkbox" id="art" name="hb"> ART<br>
+                <input type="checkbox" id="other" name="hb"> OTHER<br>
+            </label>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+            </select><br>
+            
+            <input type="submit" value="SUBMIT MY ANSWERS">
+            
+        </fieldset>
+    </form>
+</body>
