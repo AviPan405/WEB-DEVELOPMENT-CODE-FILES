@@ -1,0 +1,7 @@
+body{
+    background: radial-gradient(blue 5%, purple 10%, green 15%, red 70%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    background-attachment: fixed;
+}
