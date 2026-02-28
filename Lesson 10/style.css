@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+h1{
+    color: rgb(89, 89, 255);
+}
+a{
+    color: rgb(89, 89, 255);
+    text-decoration: none;
+}
+a:hover{
+    color:green;
+}
+ul>li{
+    font-family: bold;
+}
+h1+p{
+    background-color: rgb(227, 141, 227);
+}
+ul li:hover{
+    color: rgb(227, 141, 227);
+}
+ul li:nth-child(2){
+    color: rgb(227, 141, 174);
+}
+p:not(:first-child){
+    background-color: rgb(89, 88, 89);
+}
+ul li::before{
+    content:"🚀";
+}
+a::after{
+    content:" 🔗";
+}
+p::first-letter{
+    font-size: 200%;
+    color: rgb(227, 141, 227);
+}
